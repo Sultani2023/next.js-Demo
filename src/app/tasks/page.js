@@ -77,8 +77,6 @@ export default function TasksPage() {
           </button>
         ))}
       </div>
-
-      {/* Tasks List */}
       <div className="space-y-3">
         {filteredTasks.map((task) => (
           <div

@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           <Sidebar />
           <div className="flex-1 flex flex-col overflow-x-hidden">
             <main className="flex-1">{children}</main>
-            {/* <Footer /> */}
+            <Footer />
           </div>
         </div>
       </body>

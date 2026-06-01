@@ -43,7 +43,7 @@ export default function Dashboard() {
           </div>
           <div className="bg-white/10 rounded-xl p-3 backdrop-blur-sm">
             <p className="text-xs opacity-80">Current Time</p>
-            <p className="font-semibold">{new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</p>
+            <p className=" suppressHydrationWarning font-semibold">{new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</p>
           </div>
         </div>
       </div>
